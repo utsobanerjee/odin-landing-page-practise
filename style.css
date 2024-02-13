@@ -62,7 +62,7 @@ img{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 50px;
     flex-wrap: wrap;
 }
@@ -127,7 +127,7 @@ h1{
     font-weight: lighter;
     color: #1F2937;
 }
-h4{
+h4.thor{
     text-align: end;
     padding-right: 15px;
     margin-top: 20px;
@@ -136,6 +136,40 @@ h4{
     display: flex;
     justify-content: center;
     padding: 40px 0;
-    background-color: antiquewhite;
+    background-color: white;
+}
+.cta-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 2%;
+    background-color: #3882f6;
+}
+div.cta-left > * {
+    color: #F9FAF8;
+}
+.cta-right{
+    border:2px solid white;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 0px 30px;
+    font-weight: 800;
+    border-radius: 7%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+}
+
+.footer-container {
+    width: fit-content;
+}
+.footer-container > p {
+    color: #E5E7EB;
 }
 
